@@ -1,0 +1,33 @@
+header{
+    div{
+        div{
+            .carousel-item{
+            height: 100vh;
+            min-height: 300px;
+        }
+            div{
+                .carousel-caption{
+                            bottom: 220px;
+                        }
+            }
+        }
+    }
+    nav{
+        .bg-light{
+            background-color:transparent !important;
+        }
+    }
+} 
+    .imgLogo{
+            margin: 10px;
+        }
+    .colorText{
+        color: #60c52d;
+        font-family:'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    }
+
+
+
+    .parrafo{
+        font-style: italic;
+        }

@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 20px; }
+
+
+
+header nav div a {
+  height: 90px;
+  width: 100px;
+  margin: 10px; }
+
+.colorText {
+  color: #60c52d;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif !important; }
+
+.titulo {
+  background-color: #168AAD;
+  text-align: center;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  box-sizing: border-box; }
+
+.parrafo {
+  font-style: italic; }
+
+  main {
+    background-image: url('../img/lineas-fondo.png') !important;
+  height: 100%;
+  text-align: center;
+  grid-area: main; }
+  main div aside div img {
+    max-width: 100%;
+    height: auto; }
+
+.imgProf {
+  border: 2px solid black; }
+
+.imgClinica {
+  box-sizing: content-box;
+  max-width: 50%;
+  max-height: 50%;
+  border: 1px solid black; }
+
+.imgPaciente {
+  max-width: 100%;
+  max-height: 80%;
+  border: 5px solid black;
+  vertical-align: middle; }
+
+
+
+.contacto {
+  background-color: #1EA8E0; }
+
+@media screen and (max-width: 760px) {
+  /* nav ul{
+        flex-direction: column; */ }
+
+main {
+  display: grid; }
+
+@media screen and (max-width: 365px) {
+  header {
+    display: grid;
+    grid-template-columns: 1 fr 1fr; } }
+
+    .logo-menu {
+      width: 50px;
+    }
+    .menu-consultorio {
+      background-color: #ffffff4a !important;
+    }
+    .logo-footer {
+      position:fixed;
+      width:60px;
+      height:60px;
+      bottom:40px;
+      right:40px;
+    }
